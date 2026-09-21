@@ -1,0 +1,41 @@
+{
+  "name": "foto-generating",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "marketplace",
+    "ai",
+    "product-photos",
+    "nextjs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "AI service for generating marketplace product photos",
+  "dependencies": {
+    "@libsql/client": "^0.18.0",
+    "lucide-react": "^1.47.0",
+    "next": "^14.2.15",
+    "nodemailer": "^10.0.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sharp": "^0.35.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.15",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.6.1",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.15",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.5.4",
+    "vitest": "^4.1.11"
+  }
+}

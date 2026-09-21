@@ -1,0 +1,15 @@
+node_modules
+.next
+out
+coverage
+npm-debug.log*
+.DS_Store
+.env*
+!.env.example
+data/
+
+# local dev / temp artifacts
+dev-server.log
+dev-server.err.log
+rays-cookies.txt
+*.tsbuildinfo
